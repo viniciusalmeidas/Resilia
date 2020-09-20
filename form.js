@@ -13,7 +13,7 @@
     }
 
     ativarConteudo =(valor) => {
-        const conteudo = document.querySelector('[data-conteudo="${valor}"]')
+        const conteudo = document.querySelector("[data-conteudo="${valor}"]")
         conteudo.classlist.remove('hide')
     }
     
