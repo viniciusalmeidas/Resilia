@@ -2,32 +2,36 @@
 <html lang="pt-br">
     <head>
         <meta charset="UTF-8">
-        <title>Login</title>
+        <title>História</title>
+        <link rel="stylesheet" type="text/css" href="_css/reset.css"/>
         <link rel="stylesheet" type="text/css" href="_css/style.css"/>
     </head>
+
     <body>
-        <header id="cabecalho">
-            <nav id="menu">
-                <h1>Menu</h1>
-                <ul>
-                    <li><a href="./index.html"">Home</a></li>
-                    <li><a href="./login.html">Login</a></li>
-                    <li><a href="./historia-erica.html">Leituras</a></li>
-                    <li><a href="./blog.html">Blog</a></li>
-                    <li><a href="./swot.html">SWOT</a></li>
-                </ul>
-            </nav>
+        <header>
+            <div class="caixa">
+                <nav id="menu">
+                    <h1>Menu</h1>
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./login.html">Login</a></li>
+                        <li><a href="./historia-erica.html">Leituras</a></li>
+                        <li><a href="./blog.html">Blog</a></li>
+                        <li><a href="./swot.html">SWOT</a></li>
+                    </ul>
+                </nav>
+            </div>
         </header>      
 
         <main>
-            <h1>Sign in</h1><hr/>  
-
+            <h1>Entrar / Cadastrar-se</h1><hr/>  
+            <br/>
             <div class="container">
                 <div class="abas">
                     <button class="ativa" data-aba="entrar" >Entrar </button>
-                    <button data-aba="cadastrar">Cadastra-se </button>
+                    <button data-aba="cadastrar">Cadastre-se </button>
                 </div>
-
+                <br/>
                 <div class="conteudos">
                     <div data-conteudo="entrar">
                         <form class="form">
@@ -45,18 +49,9 @@
                         </form>
                     </div>
                 </div>    
-            <br/>
-            <br/>
-            <hr/>
-            <footer id="footer">
-                Copyright &copy;
-                <a href="https://github.com/viniciusalmeidas" target="_blank">Vinícius Almeida</a><br/> 
-                atualização: 17/09/2020<br/> 
-            </footer>
-            <hr/>
+            </div>
         </main>
-        </div>
-        <script src="form.js"></script>
+    
     </body>
 
 </html>
