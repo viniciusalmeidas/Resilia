@@ -23,10 +23,18 @@ main {
     box-shadow: 4px 4px 4px rgba(0, 0, 0, 0.600);
 }
 
+.logo-resilia{
+    background-color: #2f2e2e;
+    width: 150px;
+    height: 40px;
+    margin-top: 5px;
+}
+
+
 h1 {
     font-size: 24px;
     text-align: center;
-    color: rgb(26, 26, 255);
+    color: #2f2e2e;
 }
 
 h2 {
@@ -92,7 +100,6 @@ figure.foto-legenda:hover figcaption {
 
 /*Formatação de Menu*/
 
-
 .caixa{
     position: relative;
     width: 720px;
@@ -105,33 +112,54 @@ nav#menu {
     right: 0;
     list-style: none;
     text-transform: uppercase;
+    color: #f4cb01;
+    cursor: pointer;
 }
  
 
 nav#menu li{
     display: inline-block;
-    background-color: #dddddd;
+    background-color: #2f2e2e;
+    font-family: Arial, Helvetica, sans-serif;
     padding: 10px;
     margin: 1px;
     transition: 1s;
-
 }
 
 nav#menu li:hover {
-    background-color: #606060; 
+    background-color: #f4cb01;
+    color: #606060;
 }
 
 nav#menu h1{
     display: none;
 }
 nav#menu a{
-    color:black;
+    color:#f4cb01;
     text-decoration: none;
 }
+
+
 nav#menu a:hover{
     color:white;
     text-decoration: underline;
 }
+
+nav#menu .login{
+    background-color: #9b59b6;
+    text-decoration: none;
+    
+}
+nav#menu .logout{
+    background-color:red;
+    text-decoration: none;
+    
+}
+.elementActive{
+    display: ;
+
+}
+
 
 /*Formatação da Matriz S.W.O.T*/
 table, th, td{
@@ -139,7 +167,7 @@ table, th, td{
     table-layout: fixed;
     margin: 0 auto;
     text-align: left;
-    transition: 1,5s;
+    transition: 1.5s;
     border-radius: 10px;
     padding: 15px;
 }
@@ -183,18 +211,26 @@ table ul{
 
 
 /*Formatação do Formulário e Botão*/
+.form input {
+    display: inline-block;
+
+}
+
 .form button {
+    width: 100px;
+    height: 50px;
     padding: 10px;
-    background-color: #E67817;
+    background-color: #f4cb01;
     border: none;
     outline: none;
     color: #fff;
     font-weight: bold;
 }
 .hide {
-    display: none;
+    /*display: none;*/
 
 }
+
 .abas .ativa{
-    background-color: #E67817;
+    background-color: #f4cb01;
 }

@@ -14,21 +14,24 @@
                     <h1>Menu</h1>
                     <ul>
                         <li><a href="./index.html">Home</a></li>
-                        <li><a href="./login.html">Login</a></li>
                         <li><a href="./historia-erica.html">Leituras</a></li>
                         <li><a href="./blog.html">Blog</a></li>
                         <li><a href="./swot.html">SWOT</a></li>
+                        <li class="login"><a href="./login.html">Entrar</a></li>
+                        <li class="logout"><a href="./login.html">Sair</a></li>
                     </ul>
                 </nav>
+                <img class="logo-resilia" src="./_images/logo_amarela.webp">
             </div>
         </header>      
 
         <main>
+            <br/>
             <h1>Entrar / Cadastrar-se</h1><hr/>  
             <br/>
             <div class="container">
                 <div class="abas">
-                    <button class="ativa" data-aba="entrar" >Entrar </button>
+                    <button class="ativa" data-aba="entrar" >Já tenho uma conta </button>
                     <button data-aba="cadastrar">Cadastre-se </button>
                 </div>
                 <br/>
@@ -37,21 +40,28 @@
                         <form class="form">
                             <input type="text" name="email" placeholder="Seu e-mail">
                             <input type="password" name="senha" placeholder="Sua senha">
-                            <button>Entrar</button>
+                            <button id="btn-entrar" onclick="myFunction()">Entrar</button>
+                            <span class="popuptext" id="myPopup">Popup text...</span>
+                            
+
+
                         </form>
                     </div>
                     <div class="hide" data-conteudo="cadastrar">
                         <form class="form">
+                            <input type="text" name="email" placeholder="Nome Completo">
+                            <input type="text" name="email" placeholder="Data de Nascimento">
+                            <input type="text" name="email" placeholder="CPF/CNPJ">
                             <input type="text" name="email" placeholder="Seu e-mail">
                             <input type="password" name="senha" placeholder="Sua senha">
                             <input type="password" name="senha" placeholder="Repita sua senha">
-                            <button>Cadastrar</button>
+                            <button class="btn-inscrever">Inscrever-se</button>
                         </form>
                     </div>
                 </div>    
             </div>
         </main>
-    
+        <script src="position-menu.js"></script>
     </body>
 
 </html>
