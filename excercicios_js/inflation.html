@@ -1,0 +1,23 @@
+<meta charset="UTF-8">
+
+<script>
+
+    var tomateIn = 3.30;
+    var tomateOut = 4.70;
+    var arrozIn = 2.99;
+    var arrozOut = 3.25;
+    var cenouraIn = 3.99;
+    var cenouraOut = 4.14;
+
+    var inflaT = ((tomateOut - tomateIn)*100/tomateIn);
+    var inflaA = ((arrozOut - arrozIn)*100/arrozIn);
+    var inflaC = ((cenouraOut - cenouraIn)*100/cenouraIn);
+    var mediaInfla = (inflaT + inflaA + inflaC)/3;
+
+
+    document.write(inflaT.toFixed(2) + "<br>" + 
+                   inflaA.toFixed(2) + "<br>" + 
+                   inflaC.toFixed(2) + "<br>" + 
+                   mediaInfla.toFixed(2))
+
+</script>
