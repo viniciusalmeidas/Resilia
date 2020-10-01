@@ -1,0 +1,1 @@
+alert(imgBlock.getAttribute('src'));

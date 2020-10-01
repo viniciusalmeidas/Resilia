@@ -1,22 +1,23 @@
 
-
-
-function viewPassword()
-{
-  var passwordInput = document.getElementById('password-field');
-  var passStatus = document.getElementById('pass-status');
- 
-  if (passwordInput.type == 'password'){
-    passwordInput.type='text';
-    passStatus.className='fa fa-eye-slash';
-    
+function view(t){
+  var respostaBlock = document.getElementById('resposta-' + t);
+  var imgBlock = document.getElementById('eyes-'+ t);  
+  var name= imgBlock.getAttribute('src')
+  if (name == "_imagesJs/answers.png"){
+    respostaBlock.hidden = true;
+    imgBlock.src = "_imagesJs/no-answer.png";
   }
-  else{
-    passwordInput.type='password';
-    passStatus.className='fa fa-eye';
+  if (name == "_imagesJs/no-answer.png"){
+    respostaBlock.removeAttribute("hidden");
+    imgBlock.src = "_imagesJs/answers.png";
   }
 }
 
+
+function resposta1a() {
+  return document.write("EducaTech, e Consultoria Industrial e Portuária<br/>");
+  
+}
 
 function resposta1b() {
     return document.write("Singapura<br/>");
@@ -36,4 +37,3 @@ function resposta2() {
 function resposta3() {
     document.write("Um ser humano como sou hoje. Porque não precisamos caçar e andamos de pé.<br/>");
 }
-
