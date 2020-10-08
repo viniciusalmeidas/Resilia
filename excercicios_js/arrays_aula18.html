@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Arrays</title>
+</head>
+<body>
+    <script>    
+//         var array = [ -1, 2, -3, 4, 5, -2, 23, -1, -13, 10, -52 ];
+////FILTER ???? TERNÁRIO
+//     sum = array.reduce(function (r, a) {
+//         return a > 0 ? r + a : r;
+//     }, 0);
+// console.log(sum);
+
+
+// var array1 = [1,2,3,4];
+// var array2 = [5,6,7,8];
+
+// var sum = array1.map(function (num, idx) {
+// return num + array2[idx];
+// }); 
+
+
+
+
+
+// var array1 = [1,2,3];
+// var array2 = [4,4,4];
+// var  lista1= 0;
+// var  lista2= 0;
+
+// function somar(array1, array2) {
+//     for (i = 0 ; i< array1.length;i++){
+//         lista1 += array1[i];
+//     }
+//     for (i=0; i < array2.length; i++){
+//         lista2 += array2[i];
+//     }
+//     return lista1 + lista2; 
+// }
+// console.log(somar(array1, array2));
+
+
+
+// limite = parseInt(prompt("Digite um número limite: ")); 
+
+// function somaMulti(n){
+//     soma = 0;
+//     for (i = 0; i < n; i++) {
+//         if (i % 3 == 0 || i % 5 ==0) {
+
+//             soma += i;
+//         }
+//         if (i <0){
+//             soma += 0;
+//         }
+//     }
+//     return soma;
+
+// }
+
+// console.log(somaMulti(limite))
+
+
+// limite = parseInt(prompt("Digite um número limite: ")); 
+
+// function somaMulti(n){
+//     var soma = 0;
+//     var lista = [];
+//     for (i = 0; i < n; i++) {
+//         if (i <=0){
+//             soma += 0;    
+//         }
+//         else if (i % 3 == 0 || i % 5 ==0) {
+//             soma += i;
+//             lista.push(i);
+        
+//         }
+//     }
+//     console.log(lista)
+//     console.log(soma)
+//     return soma;
+    
+// }
+
+
+    function toNoLucro(){
+        var arr= [1,2,3,4,5,0,-1,-2,-3,-7,10,14,-15,0];
+        var arrPos=[];
+        //Percorre vetor da direita para esquerda
+        for (var i = arr.length - 1; i >=0; i--){
+            if (array[i]<0){//Se negativo partir dali
+                arrPos = arr.slice(i+1);
+            }    
+        }
+        }
+    }
+toNoLucro()
+
+
+
+
+
+    
+    </script>
+    
+</body>
+</html>

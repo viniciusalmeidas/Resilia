@@ -10,22 +10,33 @@
     <script>
 
     function createButtons(){    
-        let name = ["Vinicius", "Thome", "Norma", "Tiago"];
+
+        let name = ["Vinicius", "Thome", "Norma", "Tiago", "Erica"];
+        
+        //name.push = ["Carlos"]
+        //name.push("Carlos","Fernando");
+        
+        
+        
         var i = 0;
+
         while (i < name.length){
             let btn = document.createElement("button");
             btn.textContent = name[i];
             btn.id="button-"+i;
             document.body.appendChild(btn);
             btn.addEventListener("click", function(){
-                alert(btn.textContent);
+                alert("Olá " + btn.textContent);
                 });
             i++;
         }
 
     }
+    
     createButtons()
+
     </script>
+    <input class="nome" >
 
 
 </body>
