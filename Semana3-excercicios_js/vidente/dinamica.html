@@ -10,90 +10,70 @@
     
     <h4>a. Com o que você quer estar trabalhando? </h4>
         <div class="container">
-            <img width=3% src="_imagesJs/no-answer.png" class="eyes" id="eyes-1" onclick="view(1)">
+            <img width=3% src="/_imagesJs/no-answer.png" class="eyes" id="eyes-1" onclick="view(1)">
             <div class="resposta" id="resposta-1" hidden>
-                <a><script>
-                resposta1a()            
-                </script></a>
+                <a id="resposta1"></a>
             </div>
         </div>
         
     <h4>b. Onde Você gostaria de morar? </h4>
         <div class="container">
-            <img width=3% src="_imagesJs/no-answer.png" class="eyes" id="eyes-2" onclick="view(2)">
+            <img width=3% src="/_imagesJs/no-answer.png" class="eyes" id="eyes-2" onclick="view(2)">
             <div class="resposta" id="resposta-2" hidden>
-                <a><script>
-                resposta1b()            
-                </script></a>
+                <a id="resposta2"></a>
             </div>
         </div>
     
     <h4>c. Como espera que esteja sua vida?</h4>
         <div class="container">
-            <img width=3% src="_imagesJs/no-answer.png" class="eyes" id="eyes-3" onclick="view(3)">
+            <img width=3% src="/_imagesJs/no-answer.png" class="eyes" id="eyes-3" onclick="view(3)">
             <div class="resposta" id="resposta-3" hidden>
-                <a><script>
-                resposta1c()            
-                </script></a>
+                <a id="resposta3"></a>
             </div>
         </div>
     <h3>2- O que você levaria para uma ilha deserta? </h3>
         <div class="container">
-            <img width=3% src="_imagesJs/no-answer.png" class="eyes" id="eyes-4" onclick="view(4)">
+            <img width=3% src="/_imagesJs/no-answer.png" class="eyes" id="eyes-4" onclick="view(4)">
             <div class="resposta" id="resposta-4" hidden>
-                <a><script>
-                resposta2()            
-                </script></a>
+                <a id="resposta4"></a>
             </div>
         </div>
     <h3>3- Se você pudesse ser um animal, qual seria? Por que ?</h3>
         <div class="container">
-            <img width=3% src="_imagesJs/no-answer.png" class="eyes" id="eyes-5" onclick="view(5)">
+            <img width=3% src="/_imagesJs/no-answer.png" class="eyes" id="eyes-5" onclick="view(5)">
             <div class="resposta" id="resposta-5" hidden>
-                <a><script>
-                resposta3()            
-                </script></a>
+                <a id="resposta5"></a>
             </div>
         </div>
+
     <script>
-            function view(t){
-              var respostaBlock = document.getElementById('resposta-' + t);
-              var imgBlock = document.getElementById('eyes-'+ t);  
-              var name= imgBlock.getAttribute('src')
-              if (name == "_imagesJs/answers.png"){
+        function view(t){
+            var respostaBlock = document.getElementById('resposta-' + t);
+            var imgBlock = document.getElementById('eyes-'+ t);  
+            var name= imgBlock.getAttribute('src')
+            if (name == "/_imagesJs/answers.png"){
                 respostaBlock.hidden = true;
-                imgBlock.src = "_imagesJs/no-answer.png";
-              }
-              if (name == "_imagesJs/no-answer.png"){
+                imgBlock.src = "/_imagesJs/no-answer.png";
+            }
+            if (name == "/_imagesJs/no-answer.png"){
                 respostaBlock.removeAttribute("hidden");
-                imgBlock.src = "_imagesJs/answers.png";
-              }
+                imgBlock.src = "/_imagesJs/answers.png";
             }
+        }
             
+        function preenche() {
+            var resposta = [];
+            resposta[1] = "EducaTech, e Consultoria Industrial ePortuária."    
+            resposta[2] = "Singapura."
+            resposta[3] = "1 filha e Solteiro."
+            resposta[4] = "Um bom barco."
+            resposta[5] = "Um ser humano como sou hoje. Porque não precisamos caçar e andamos de pé."    
             
-            function resposta1a() {
-              return document.write("EducaTech, e Consultoria Industrial e Portuária<br/>");
-              
+            for (var i =1; i <resposta.length; i++){
+                document.getElementById("resposta"+i).textContent = resposta[i];
             }
-            
-            function resposta1b() {
-                return document.write("Singapura<br/>");
-                
-            }
-            
-            function resposta1c() {
-                return document.write("1 filha e Solteiro.<br/>");
-            }
-            
-            function resposta2() {
-                
-                document.write("Um bom barco.<br/>");
-                
-            }
-            
-            function resposta3() {
-                document.write("Um ser humano como sou hoje. Porque não precisamos caçar e andamos de pé.<br/>");
-            } 
+        }
+        preenche()
     </script>
 </body>
 </html>
