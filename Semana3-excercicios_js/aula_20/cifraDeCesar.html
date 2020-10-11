@@ -1,36 +1,46 @@
 <!DOCTYPE html>
 <html lang="pt-BR">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>(de)Codificar César</title>
-</head>
-<body>
-    
-<form id="frm1" class ="form" autocomplete="off">
-    <label for="mensagem">Mensagem:</label> 
-    <input type="password" id="msg"><br/><br/>
-    
-    <label for="deslocamento">Deslocame:</label>
-    <input type="password" id="desloc"><br/><br/>
-    
-    <button type="submit">Codificar</button><br/><br/><hr/>
-</form>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="Content-Type" content="text/html" charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>(de)Codificar César</title>
+    </head>
+    <body>
+        
+        
+        <form id="frm1" class ="form" autocomplete="off">
+            <label for="mensagem">Mensagem:</label> 
+            <input type="password" id="msg"><br/><br/>
+            
+            <label for="deslocamento">Deslocame:</label>
+            <input type="password" id="desloc"><br/><br/>
+            
+            <button type="submit" >Codificar</button><br/><br/><hr/>
+        </form>
 
 
-<form id="frm2" class ="form" autocomplete="off">
-    <label for="mensagem">Codificado:</label>  
-    <input type="text" id="cod" disabled><br/><br/>
 
-    <button type="submit">Decodificar</button><br/><br/><hr>
-</form>    
-    
-<form id="frm3" class ="form" autocomplete="off">
-    <label for="decodificado"></label>Decodificado:</label>  
-    <input type="text" id="decod" disabled><br/><br/>
-</form>
+        <form id="frm2" class ="form" autocomplete="off">
+            <label for="mensagem">Codificado:</label>  
+            <input type="text" id="lb-cod" disabled><br/><br/>
 
-<script type="text/javascript" src="cifraDeCesar.js"></script>
-    
-</body>
+            <button type="submit" id="btn-decod" disabled>Decodificar</button><br/><br/><hr> 
+        </form>   
+        
+        
+            
+        <form id="frm3" class ="form" autocomplete="off">
+            <label for="decodificado"></label>Decodificado:</label>  
+            <input type="text" id="lb-decod" disabled><br/><br/>
+            
+        </form>
+
+
+
+        <script type="text/javascript" src="cifraDeCesar.js"></script>
+        
+
+
+    </body>
 </html>
