@@ -60,6 +60,7 @@ function addEventos(){
         frm2.reset();
         frm3.reset();
         lbDeCodificar.style.backgroundColor = "transparent";
+        btnDeCodificar.disabled = true;
     });
     
     
