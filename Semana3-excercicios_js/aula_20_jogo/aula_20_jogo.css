@@ -45,13 +45,17 @@ textarea {
     border: 2px solid #ccc;
     border-radius: 4px;
     background-color: #f8f8f8;
-    font-size: 20px;
+    font-size: 18px;
     text-align: justify;
     resize: none;
   }
   
-  h2 {
+  h3 {
     text-align: center;
+    color:  rgb(87, 212, 87);
+    border-style: solid;
+    border-radius: 8px;
+    padding: 5px;
   }
 
   button {

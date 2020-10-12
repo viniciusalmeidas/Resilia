@@ -1,20 +1,25 @@
-const frm1 = document.getElementById("frm1");
+const btn1 = document.getElementById("btn1");
+const btn2 = document.getElementById("btn1");
+const btn3 = document.getElementById("btn1");
+const btn4 = document.getElementById("btn1");
 
 
 //Eventos da Página
 function addEventos(){
-    
-    .addEventListener("keydown", function () {
-        frm2.reset();
-        frm3.reset();
-        lbDeCodificar.style.backgroundColor = "transparent";
-        btnDeCodificar.disabled = true;
+  
+    btn1.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.location.href='/aula_20_fase2.html';
     });
     
-    
-    .addEventListener("submit", (e) => {
+    btn2.addEventListener("click", (e) => {
         e.preventDefault();
+        window.location.href='/aula_20_fase3.html';
+    });
     
+    btn3.addEventListener("click", (e) => {
+        e.preventDefault();
+        window.location.href='/aula_20_fase4.html';
     });
     
  
