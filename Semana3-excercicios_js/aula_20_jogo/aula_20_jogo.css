@@ -44,7 +44,7 @@ img {
 
 textarea.txt {
     width: 500px;
-    height: 440px;
+    height: 430px;
     padding: 10px 20px;
     box-sizing: border-box;
     border: 2px solid #ccc;
@@ -58,15 +58,18 @@ textarea.txt {
   h3 {
     text-align: center;
     color:  rgb(87, 212, 87);
+    justify-content: space-between;
     border-style: solid;
     border-radius: 8px;
-    padding: 5px;
+    padding: 4px;
   }
 
- 
-
-  
-  
+  button.voltar {
+    padding: 10px;
+    border: 2px solid ;
+    border-radius: 1em;
+    transform-style: preserve-3d;
+  }
   
 button {
     position: relative;
@@ -127,4 +130,13 @@ button {
         box-shadow: 0 0 0 2px var(--colorShadeB), 0 0.25em 0 0 var(--colorShadeB);
   
   }
-  
+
+  img:hover {
+    transform: scale(1.08);
+    transition: 0.35s;
+    border-radius: 30px;
+    }
+
+
+
+
