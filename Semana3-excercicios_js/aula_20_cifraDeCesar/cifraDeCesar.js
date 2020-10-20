@@ -5,7 +5,6 @@ const btnCodificar = document.getElementById("btn-cod");
 const lbDeCodificar = document.getElementById("lb-decod");
 const btnDeCodificar = document.getElementById("btn-decod");
 
-
 //Cifra com CharAt
 function cifraComCifraDeCesar(){
     let mensagemEncriptada = [];   
@@ -20,7 +19,8 @@ function cifraComCifraDeCesar(){
     } 
     //Junta o vetor e apresenta na tela a resposta
     lbCodificar.value = mensagemEncriptada.join("");
-    btnDeCodificar.disabled = false;   
+    btnDeCodificar.disabled = false;    
+
 }
 
 
