@@ -5,6 +5,8 @@ const btns = document.querySelectorAll(".btn");
 
 var names = ["Vinicius", "Thome", "Norma"];
 
+
+
 function createButtons(){    
     let newName = document.getElementById("lb-novo-nome").value;
     names.push(newName);
@@ -13,10 +15,17 @@ function createButtons(){
     newBtn.className = "btn";
     newBtn.textContent = newName;
     document.getElementById("container").appendChild(newBtn);
+    
     newBtn.addEventListener("click", function(){
         alert("Olá " + newBtn.textContent);
     });
 };
+
+
+
+
+
+
 
 
 

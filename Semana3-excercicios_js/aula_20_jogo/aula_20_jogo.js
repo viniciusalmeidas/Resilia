@@ -11,6 +11,9 @@ const btns = document.getElementById("btns");
 textoFase2 = "Homer pode ajudar a Lisa a minimizar os danos da Usina Nuclear de Springfield, e para isso ele tem que conseguir chegar na Usina sem ativar nenhuma bomba."
 +" Leve o Homer até a Usina!!"
 
+textoFase3 = "Homer pode ajudar a Lisa a minimizar os danos da Usina Nuclear de Springfield, e para isso ele tem que conseguir chegar na Usina sem ativar nenhuma bomba."
++" Leve o Homer até a Usina!!"
+
 
 function fase2(){
     title.textContent = "Homer, o Paizão!";
