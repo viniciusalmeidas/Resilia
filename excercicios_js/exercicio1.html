@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <form>
+        <input type="text1">
+        <input type="text2">
+        
+        <button id="btn" onclick=junta()>Juntar</button>
+    </form>
+
+
+
+
+    <script>
+        const palavra1 = document.getElementById("text1")
+        const palavra2 = document.getElementById("text2")
+
+
+
+        function junta(){
+            
+            let pal1 = palavra1.textContent
+            let pal2 = palavra2.textContent
+            
+            let frase = pal1 + " " + pal2;
+
+            alert(frase)
+
+            return; 
+        }
+
+    </script>
+</body>
+</html>
