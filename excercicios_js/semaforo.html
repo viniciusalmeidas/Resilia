@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sinal de Trânsito</title>
+    <style>
+    .btn {
+        display: flex;
+        justify-content: center;
+        flex-direction: column;
+    
+    }
+    </style>
+    <script src="sinal.js"></script>
+</head>
+<body>
+<div class="btn">
+
+    <button id="vermelho">VERMELHO</button>
+    <button id="amarelo">AMARELO</button>
+    <button id="verde">VERDE</button>
+    
+
+</div>    
+<script>
+
+function mudarCor(){
+    const btnVermelho = document.getElementById("vermelho")
+    const btnAmarelo = document.getElementById("amarelo")
+    const btnVerde = document.getElementById("verde")
+
+    setTimeout(function(){
+        
+        btnVermelho.style.backgroundColor = "red"
+        btnAmarelo.style.backgroundColor = "white" 
+        btnVerde.style.backgroundColor = "white" 
+    
+    },2500);
+       
+
+    setTimeout(function(){
+        btnVermelho.style.backgroundColor = "white"
+        btnAmarelo.style.backgroundColor = "yellow" 
+        btnVerde.style.backgroundColor = "white" 
+
+    },5500);
+
+    setTimeout(function(){
+        btnVermelho.style.backgroundColor = "white"
+        btnAmarelo.style.backgroundColor = "white" 
+        btnVerde.style.backgroundColor = "green" 
+
+    },8000)
+
+    return ;
+}
+
+
+mudarCor()
+
+
+
+</script>    
+</body>
+</html>
+
