@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pr-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Class-Exerc</title>
+</head>
+<body>
+    
+<button id="btn" onclick=chama()>Próximo</button>
+</br>
+<label>Altura: </label><input id="ipt-alt">
+
+</br>
+<label>Cor: </label><input id="ipt-cor">
+
+</br>
+<label>Rabo: </label><input id="ipt-rabo">
+
+</br>
+<label>nº patas: </label><input id="ipt-patas">
+
+
+
+<script>
+
+const iptAlt = document.getElementById("ipt-alt")
+const iptCor = document.getElementById("ipt-cor")
+const iptRabo = document.getElementById("ipt-rabo")
+const iptPatas = document.getElementById("ipt-patas")
+
+
+class Cao{
+    constructor(altura, cor, rabo, patas){
+        this.altura = altura;
+        this.cor = cor;
+        this.rabo = rabo;
+        this.patas = patas;
+    }
+
+}
+
+
+function chama() {
+    
+    let cao = (new Cao(0.9,"branco","curta", 3));
+    iptAlt.value = cao.altura;
+    iptCor.value = cao.cor;
+    iptRabo.value = cao.rabo;
+    iptPatas.value = cao.patas;
+}
+
+
+
+
+</script>    
+</body>
+</html>

@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicios 1 e 2 </title>
+</head>
+<body>
+<label>EXERCICIO 1</label>
+<button id="f-js1" onclick="ola('Vinicius', 'olá', '!')">Resposta 1</button>
+<input id="ipt1" value="">
+</br></br></br></br>
+
+<label>EXERCICIO 2</label>
+<button id="f-js2" onclick="eleva()">Resposta 2</button>
+<input id="ipt2" value="">
+
+
+<script>
+const ipt1 = document.getElementById("ipt1")
+const ipt2 = document.getElementById("ipt2")
+
+
+function ola(nomeDaPessoa, saudacao, pontuacao){
+    var dados = [];
+    dados.push(nomeDaPessoa, saudacao, pontuacao)
+    console.log(...dados);
+}
+
+let listaDeQuadrados =
+[
+ {
+ largura: 100,
+ altura: 100,
+ },
+ {
+ largura: 30,
+ altura: 10,
+ },
+ {
+ largura: 20,
+ altura: 13,
+ },
+ {
+ largura: 5,
+ altura: 5,
+ },
+ {
+ largura: 1,
+ altura: 1,
+ },
+]
+
+function eleva(){
+
+    let elev = listaDeQuadrados.map( function(e){
+        
+        return (e.largura*e.altura);
+    });     
+    ipt2.value = elev 
+}
+
+
+
+
+
+</script>
+
+</body>
+</html>

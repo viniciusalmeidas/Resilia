@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RandomUser</title>
+</head>
+<body>
+<button id="api" onclick="chama()">Próximo
+</button>
+<input id="ipt">
+<img src="" id="img"></img>    
+
+<script>
+
+const ipt = document.getElementById("ipt")
+const img = document.getElementById("img")
+
+function chama(){
+    let xhr = new XMLHttpRequest(); 
+    //espera a resposta do navegador
+    xhr.onreadystatechange = function(dados){
+   
+    if ( this.status == 200 && this.readyState == 4){
+        var vetor = JSON.parse(xhr.responseText)
+        var name = vetor.results[0].name.first + " " + vetor.results[0].name.last;
+        var imgValue = vetor.results[0].picture.large;
+        img.src= imgValue;
+        ipt.value = name;
+       }
+    }  
+
+xhr.open("GET", "https://randomuser.me/api");
+xhr.send();
+}
+
+
+    
+
+
+
+
+
+</script>    
+</body>
+</html>
