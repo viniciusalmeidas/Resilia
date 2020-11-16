@@ -3,25 +3,82 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Quem soma?</title>
 </head>
 <body>
     
 
 <script>
 
+var combinacao = function(numeros, soma) {
+    let resposta = []
+    if(numeros === null || numeros.length === 0){
+      return resposta;
+    }
+    numeros.sort((a,b) => a - b);
+    
+    let atual = []
+    
+    acharNumeros(numeros, soma, 0, atual, resposta);
 
-function solution(digits='981245658980'){
-let arr = [];
-
-  for (let i=0; i < digits.length - 4; i++){
-    arr.push(digits.slice(i,i+5));
-  }  
-  console.log(arr.map(Number))
-  return;
+    return resposta;
 }
 
-solution()
+const acharNumeros = function(numeros, soma, i, atual, resposta){
+    if (soma === 0){
+        const temp = atual.slice();
+        resposta.push(temp);
+        return;
+    }
+    
+    for(let j = i; j < numeros.length; j++){
+      
+      if (soma < numeros[j]){
+          return;
+      }
+        
+    atual.push(numeros[j]);  
+    acharNumeros(numeros, soma - numeros[j], j, atual, resposta);
+    atual.pop();
+    
+    }
+}
+
+function completaNumber(number){
+  let vetor =[];
+
+  for(let i=0; i<number;i++){
+    vetor.push(i+1)
+  }
+  return vetor;
+}
+
+
+
+//Quantos argumentos teremos
+let n = prompt("Quantos argumentos: ");
+
+//Armazena os argumentos em numbers 
+let numbers = [];
+for (let i=0; i < n;i++){
+  numbers[i] = parseInt(prompt(`Argumento ${i+1}: `));
+}
+
+//Para cada elemento imprime as combinações possíveis de soma
+for (let i=0; i < numbers.length; i++){
+  
+  //Preenche vetor de 1 à N crescente
+  let vetor = completaNumber(numbers[i]);
+  
+  //Função que entrega as combinações de soma
+  resposta = combinacao(vetor,numbers[i])
+  console.log(resposta)
+}
+
+
+  
+
+
 
 </script>
 </body>
