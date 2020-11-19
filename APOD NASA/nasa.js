@@ -10,7 +10,6 @@ class Controller{
     inicializador(data){
         
         console.log('controlador iniciou...')
-        console.log(data)
         let escolhaData = new Model();
         escolhaData.Recebe(data);
 
@@ -19,6 +18,17 @@ class Controller{
         view.Mostrar(escolhaData);
     }
     
+}
+
+
+class View
+{
+    Mostrar(data){
+        console.log('view iniciou')
+        titulo.textContent = data.getTitle();
+        img.src = data.getImg();
+        descricao.textContent = data.getExplanation();
+    }
 }
 
 
@@ -51,6 +61,7 @@ class Model{
             }
 
         })
+        
         request.open("GET", `https://api.nasa.gov/planetary/apod?api_key=HxfsjMvsjh9PJ6dPJ40ikaqugjUIAJgQbjK8QVN3&date=${data}`,false);
         
         request.send();
@@ -66,7 +77,7 @@ class Model{
     _atualizar(dados){
         this._date = dados.date; 
         this._title = dados.title;
-        this._image = dados.url;
+        this._image = dados.hdurl;
         this._explanation = dados.explanation;
     }
 
@@ -89,24 +100,14 @@ class Model{
 }
 
 
-class View
-{
-    Mostrar(data){
-        console.log('view iniciou')
-        titulo.textContent = data.getTitle();
-        img.src = data.getImg();
-    }
-}
-
-
 
 let controlador = new Controller();
 
-
+//gatilho
 btnEnviar.addEventListener('click', () => {
 
 let dataEscolhida = document.getElementById('date').value;
-
+    //inicia o programa
     controlador.inicializador(dataEscolhida);
 
 });
