@@ -5,7 +5,6 @@ AULA 34 - Aquecimento: Utilizando o DOM (não pode usar document.write), crie 20
 
 
 aula 15 - acabar https://cursos.alura.com.br/course/resiliencia/task/52913
-aula  03 - https://cursos.alura.com.br/course/habitos/task/26080 TERMINAR
 aula 06 - https://cursos.alura.com.br/course/posicione-elementos-com-flexbox/task/22644 TERMINAR
 
 
@@ -19,5 +18,4 @@ aula 25 - https://cursos.alura.com.br/course/javascript-programando-na-linguagem
 
 
 (1)- Ficar em dia com as Tarefas das Aulas até a aula 26. E tratar em ordem de prioridade com nº(s): 14; 20; 34; 15; 03; 06; 13; 10; 12; 25; 19; conforme arquivo ".txt" de planejamento, até Sexta-feira dia 29/10/2020 às 18:00 hrs
-(2)- Usando sábado e domingo para assistir aos vídeos e 1 hora diária para codar. 
 (3)- do dia 23/10/2020 ao dia 29/10/2020; 
