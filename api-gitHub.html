@@ -1,13 +1,13 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>API-GITHUB</title>
 </head>
 <body>
     
-<button>BUSCAR GITHUB</button>
+<button id="busca">BUSCAR GITHUB</button>
 <br>
 <img id="img1" src=" " height="300px">
 <br>
@@ -17,9 +17,9 @@
 <script>
 
 const img1 = document.getElementById('img1');
-const msg = document.getElementById('msg');
+const name = document.getElementById('msg');
 
-
+  //Controller
 class UserController {
     constructor() {
       console.log('Controller iniciou!');
@@ -106,29 +106,20 @@ class UserController {
       console.log('View:Recebi o usuário e vou criar uma visualização');
   
 
-      img1.src = model.getImagem()
+      img1.src = model.getImagem();
+      name.textContent = model.getNome();
       
-      // //criar uma div
-      // let card = document.createElement('div');
-
-      // //colocamos foto e nome
-
-
-      // card.innerHTML = `<img src=${model.getImagem()}>
-      //                   <p>${model.getNome()}</p>;
-      //                   <p>${model.getDatadeCriacao()}</p>`;
-  
-      
-      // document.body.appendChild(card);
     }
   }
   
+
+
+
   let controller = new UserController();
 
-  
-  document
-    .getElementById('busca')
-    .addEventListener('click', controller.adicionaUsuario);
+  // window.addEventListener("load",controller.adicionaUsuario );
+
+  document.getElementById('busca').addEventListener('click', controller.adicionaUsuario);
 
 
 </script>
