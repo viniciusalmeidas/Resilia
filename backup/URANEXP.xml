@@ -1,0 +1,794 @@
+<EXPORT_URANIA_INSERT>
+<PROFESSORES>
+	<REGISTRO>
+		<CODIGO>StA1</CODIGO>
+		<NOME>Alexandre Fidelis</NOME>
+		<ABREVIATURA>Alexandre Fidelis</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA2</CODIGO>
+		<NOME>Alexandre Schimitz Lagrotta</NOME>
+		<ABREVIATURA>Alexandre Schimitz Lagrotta</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf3</CODIGO>
+		<NOME>Amanda de Castro Rezende</NOME>
+		<ABREVIATURA>Amanda de Castro Rezende</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA4</CODIGO>
+		<NOME>Amanda Martins Barbosa</NOME>
+		<ABREVIATURA>Amanda Martins Barbosa</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf5</CODIGO>
+		<NOME>Andreia Silva Damasceno</NOME>
+		<ABREVIATURA>Andreia Silva Damasceno</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA6</CODIGO>
+		<NOME>Anesley de Souza Gonçalves Pereira</NOME>
+		<ABREVIATURA>Anesley de Souza Gonçalves Pereira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA7</CODIGO>
+		<NOME>Angelo Augusto Nogueres</NOME>
+		<ABREVIATURA>Angelo Augusto Nogueres</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA8</CODIGO>
+		<NOME>Barbara Bruna Muniz Figueiredo</NOME>
+		<ABREVIATURA>Barbara Bruna Muniz Figueiredo</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf10</CODIGO>
+		<NOME>Barbara Cristina Beloti Barreto</NOME>
+		<ABREVIATURA>Barbara Cristina Beloti Barreto</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA11</CODIGO>
+		<NOME>Cacilda Frazzatto de Paula</NOME>
+		<ABREVIATURA>Cacilda Frazzatto de Paula</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA14</CODIGO>
+		<NOME>Camila Apolônio Rispoli Christo</NOME>
+		<ABREVIATURA>Camila Apolônio Rispoli Christo</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA15</CODIGO>
+		<NOME>Carlos Alberto Teixeira de Souza</NOME>
+		<ABREVIATURA>Carlos Alberto Teixeira de Souza</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA16</CODIGO>
+		<NOME>Carlos Augusto Faria Pedro</NOME>
+		<ABREVIATURA>Carlos Augusto Faria Pedro</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA18</CODIGO>
+		<NOME>Carolina Rezende Moreira de Oliveira</NOME>
+		<ABREVIATURA>Carolina Rezende Moreira de Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA20</CODIGO>
+		<NOME>Caroline Cony Seródio</NOME>
+		<ABREVIATURA>Caroline Cony Seródio</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA21</CODIGO>
+		<NOME>Charles Dias Gonçalves</NOME>
+		<ABREVIATURA>Charles Dias Gonçalves</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA23</CODIGO>
+		<NOME>Christian Blenke</NOME>
+		<ABREVIATURA>Christian Blenke</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA24</CODIGO>
+		<NOME>Christiano Landau de Carvalho Hilgemberg</NOME>
+		<ABREVIATURA>Christiano Landau de Carvalho Hilgemberg</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA27</CODIGO>
+		<NOME>Cintia Laviola de Almeida</NOME>
+		<ABREVIATURA>Cintia Laviola de Almeida</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA28</CODIGO>
+		<NOME>Cintia Moreira Ramos dos Reis</NOME>
+		<ABREVIATURA>Cintia Moreira Ramos dos Reis</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA29</CODIGO>
+		<NOME>Clara Lúcia Gomes Duarte</NOME>
+		<ABREVIATURA>Clara Lúcia Gomes Duarte</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf32</CODIGO>
+		<NOME>Corine Viana de Medeiros</NOME>
+		<ABREVIATURA>Corine Viana de Medeiros</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA33</CODIGO>
+		<NOME>Cristiano Fagundes Guimarães de Almeida</NOME>
+		<ABREVIATURA>Cristiano Fagundes Guimarães de Almeida</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA34</CODIGO>
+		<NOME>Danielle Morais Generoso</NOME>
+		<ABREVIATURA>Danielle Morais Generoso</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA37</CODIGO>
+		<NOME>David Militão Campos de Oliveira</NOME>
+		<ABREVIATURA>David Militão Campos de Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA40</CODIGO>
+		<NOME>Deborah de Oliveira Costa</NOME>
+		<ABREVIATURA>Deborah de Oliveira Costa</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA42</CODIGO>
+		<NOME>Dimas Guido Silva</NOME>
+		<ABREVIATURA>Dimas Guido Silva</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA45</CODIGO>
+		<NOME>Edmond Neto de Oliveira</NOME>
+		<ABREVIATURA>Edmond Neto de Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA47</CODIGO>
+		<NOME>Eduardo da Silva Miranda</NOME>
+		<ABREVIATURA>Eduardo da Silva Miranda</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA49</CODIGO>
+		<NOME>Élen Rodrigues Gonçalves</NOME>
+		<ABREVIATURA>Élen Rodrigues Gonçalves</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA51</CODIGO>
+		<NOME>Érica Carvalho</NOME>
+		<ABREVIATURA>Érica Carvalho</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA53</CODIGO>
+		<NOME>Fabiana Aparecida da Silva Almeida</NOME>
+		<ABREVIATURA>Fabiana Aparecida da Silva Almeida</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA56</CODIGO>
+		<NOME>Fabiana de Sá Pereira</NOME>
+		<ABREVIATURA>Fabiana de Sá Pereira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA57</CODIGO>
+		<NOME>Fabricio Acauhi Costa dos Santos</NOME>
+		<ABREVIATURA>Fabricio Acauhi Costa dos Santos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf60</CODIGO>
+		<NOME>Fabricio Soares Carvalho de Oliveira</NOME>
+		<ABREVIATURA>Fabricio Soares Carvalho de Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf61</CODIGO>
+		<NOME>Fernanda Faustino Matos</NOME>
+		<ABREVIATURA>Fernanda Faustino Matos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA63</CODIGO>
+		<NOME>Fernanda Henriques Canedo de Souza</NOME>
+		<ABREVIATURA>Fernanda Henriques Canedo de Souza</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA64</CODIGO>
+		<NOME>Fernanda Louise Cisne Lemos Cardozo Honorio</NOME>
+		<ABREVIATURA>Fernanda Louise Cisne Lemos Cardozo Honorio</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA65</CODIGO>
+		<NOME>Flaviany Moraes Silveira</NOME>
+		<ABREVIATURA>Flaviany Moraes Silveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf66</CODIGO>
+		<NOME>Glaucileia de Oliveira Poncilio Rodrigues</NOME>
+		<ABREVIATURA>Glaucileia de Oliveira Poncilio Rodrigues</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>JN67</CODIGO>
+		<NOME>Gleids Lane da Silva Lodoro Oliveira</NOME>
+		<ABREVIATURA>Gleids Lane da Silva Lodoro Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA68</CODIGO>
+		<NOME>Guilherme Augusto da Silveira</NOME>
+		<ABREVIATURA>Guilherme Augusto da Silveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA71</CODIGO>
+		<NOME>Gustavo Grizendi Tostes</NOME>
+		<ABREVIATURA>Gustavo Grizendi Tostes</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA72</CODIGO>
+		<NOME>Ícaro Rodrigues da Rocha</NOME>
+		<ABREVIATURA>Ícaro Rodrigues da Rocha</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA74</CODIGO>
+		<NOME>Isabel Marques Inácio Almeida</NOME>
+		<ABREVIATURA>Isabel Marques Inácio Almeida</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf77</CODIGO>
+		<NOME>Isabella Martins de Almeida</NOME>
+		<ABREVIATURA>Isabella Martins de Almeida</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA78</CODIGO>
+		<NOME>Jader Arierom da Silva Moreira</NOME>
+		<ABREVIATURA>Jader Arierom da Silva Moreira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA79</CODIGO>
+		<NOME>Joab Pereira da Silva</NOME>
+		<ABREVIATURA>Joab Pereira da Silva</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA81</CODIGO>
+		<NOME>João Bruno de Oliveira Silva</NOME>
+		<ABREVIATURA>João Bruno de Oliveira Silva</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA83</CODIGO>
+		<NOME>Jose Carlos Fellet</NOME>
+		<ABREVIATURA>Jose Carlos Fellet</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA84</CODIGO>
+		<NOME>Jose Henrique Amorim Arbex</NOME>
+		<ABREVIATURA>Jose Henrique Amorim Arbex</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf86</CODIGO>
+		<NOME>José Lima de Carvalho</NOME>
+		<ABREVIATURA>José Lima de Carvalho</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>JN87</CODIGO>
+		<NOME>Juliana de Oliveira Menezes</NOME>
+		<ABREVIATURA>Juliana de Oliveira Menezes</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA88</CODIGO>
+		<NOME>Júlio Cesar Amaral dos Santos</NOME>
+		<ABREVIATURA>Júlio Cesar Amaral dos Santos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>JN90</CODIGO>
+		<NOME>Karla Ramim Reis de Mendonça</NOME>
+		<ABREVIATURA>Karla Ramim Reis de Mendonça</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA91</CODIGO>
+		<NOME>Karoline Flores Ferreira</NOME>
+		<ABREVIATURA>Karoline Flores Ferreira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA92</CODIGO>
+		<NOME>Keila Ferreira Martins</NOME>
+		<ABREVIATURA>Keila Ferreira Martins</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>JN94</CODIGO>
+		<NOME>Kenia Ornelas Fonseca Barbosa Figueiredo</NOME>
+		<ABREVIATURA>Kenia Ornelas Fonseca Barbosa Figueiredo</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA95</CODIGO>
+		<NOME>Larissa de Souza Oliveira</NOME>
+		<ABREVIATURA>Larissa de Souza Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA97</CODIGO>
+		<NOME>Leonardo Lima Costa</NOME>
+		<ABREVIATURA>Leonardo Lima Costa</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf100</CODIGO>
+		<NOME>Leonardo Lobato Campos</NOME>
+		<ABREVIATURA>Leonardo Lobato Campos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA101</CODIGO>
+		<NOME>Lorena Torres Falci</NOME>
+		<ABREVIATURA>Lorena Torres Falci</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA103</CODIGO>
+		<NOME>Luan Cristian da Silva</NOME>
+		<ABREVIATURA>Luan Cristian da Silva</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA105</CODIGO>
+		<NOME>Lucas Frederico Monteiro de Carvalho</NOME>
+		<ABREVIATURA>Lucas Frederico Monteiro de Carvalho</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA106</CODIGO>
+		<NOME>Luis Antonio Valle Kirchmeyer</NOME>
+		<ABREVIATURA>Luis Antonio Valle Kirchmeyer</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf108</CODIGO>
+		<NOME>Luiz Fernando Andrade Dantas</NOME>
+		<ABREVIATURA>Luiz Fernando Andrade Dantas</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA109</CODIGO>
+		<NOME>Luiz Rogério de Paula Júnior</NOME>
+		<ABREVIATURA>Luiz Rogério de Paula Júnior</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA111</CODIGO>
+		<NOME>Maira Saporetti Carvalho</NOME>
+		<ABREVIATURA>Maira Saporetti Carvalho</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA112</CODIGO>
+		<NOME>Manoel Juventino de Andrade Santana</NOME>
+		<ABREVIATURA>Manoel Juventino de Andrade Santana</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf113</CODIGO>
+		<NOME>Marcello Luiz de Sousa</NOME>
+		<ABREVIATURA>Marcello Luiz de Sousa</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA114</CODIGO>
+		<NOME>Marcelo Bonoto Marques</NOME>
+		<ABREVIATURA>Marcelo Bonoto Marques</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA116</CODIGO>
+		<NOME>Marcelo Vidal de Mendonça</NOME>
+		<ABREVIATURA>Marcelo Vidal de Mendonça</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA119</CODIGO>
+		<NOME>Márcia Cristina de Souza</NOME>
+		<ABREVIATURA>Márcia Cristina de Souza</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA121</CODIGO>
+		<NOME>Marcilia Vilela Ribeiro</NOME>
+		<ABREVIATURA>Marcilia Vilela Ribeiro</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA122</CODIGO>
+		<NOME>Marcionilo Euro Carlos Neto</NOME>
+		<ABREVIATURA>Marcionilo Euro Carlos Neto</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA127</CODIGO>
+		<NOME>Maria do Carmo de Oliveira Andrade Bernardino</NOME>
+		<ABREVIATURA>Maria do Carmo de Oliveira Andrade Bernardino</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA128</CODIGO>
+		<NOME>Maria Ignez de Souza Lima Figueiredo</NOME>
+		<ABREVIATURA>Maria Ignez de Souza Lima Figueiredo</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA129</CODIGO>
+		<NOME>Maria José de Oliveira Vasconcellos</NOME>
+		<ABREVIATURA>Maria José de Oliveira Vasconcellos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA130</CODIGO>
+		<NOME>Maria Patricia do Nascimento</NOME>
+		<ABREVIATURA>Maria Patricia do Nascimento</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA132</CODIGO>
+		<NOME>Maria Regina da Silva</NOME>
+		<ABREVIATURA>Maria Regina da Silva</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf133</CODIGO>
+		<NOME>Mariane de Oliveira Fernandes</NOME>
+		<ABREVIATURA>Mariane de Oliveira Fernandes</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA135</CODIGO>
+		<NOME>Mário de Jesus Barboza</NOME>
+		<ABREVIATURA>Mário de Jesus Barboza</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA137</CODIGO>
+		<NOME>Moyra Ribeiro Marques</NOME>
+		<ABREVIATURA>Moyra Ribeiro Marques</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA138</CODIGO>
+		<NOME>Natália Viana Machado</NOME>
+		<ABREVIATURA>Natália Viana Machado</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA140</CODIGO>
+		<NOME>Patrícia Mendonça de Castro Barra</NOME>
+		<ABREVIATURA>Patrícia Mendonça de Castro Barra</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf142</CODIGO>
+		<NOME>Pedro Batista Alves Filho</NOME>
+		<ABREVIATURA>Pedro Batista Alves Filho</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA143</CODIGO>
+		<NOME>Pedro Caruso Fracetti</NOME>
+		<ABREVIATURA>Pedro Caruso Fracetti</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA144</CODIGO>
+		<NOME>Priscila Caldeira Perdigão</NOME>
+		<ABREVIATURA>Priscila Caldeira Perdigão</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA145</CODIGO>
+		<NOME>Priscila da Silva Campos</NOME>
+		<ABREVIATURA>Priscila da Silva Campos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA147</CODIGO>
+		<NOME>Rachel Alvim de Almeida Lawal</NOME>
+		<ABREVIATURA>Rachel Alvim de Almeida Lawal</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA148</CODIGO>
+		<NOME>Raphael de Oliveira Reis</NOME>
+		<ABREVIATURA>Raphael de Oliveira Reis</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>Benf150</CODIGO>
+		<NOME>Raphaella Diogo Ferrara Delgado</NOME>
+		<ABREVIATURA>Raphaella Diogo Ferrara Delgado</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA151</CODIGO>
+		<NOME>Renália Rodrigues de Souza</NOME>
+		<ABREVIATURA>Renália Rodrigues de Souza</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA152</CODIGO>
+		<NOME>Renata Vieira Scanapieco</NOME>
+		<ABREVIATURA>Renata Vieira Scanapieco</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA153</CODIGO>
+		<NOME>Renato de Souza Alves</NOME>
+		<ABREVIATURA>Renato de Souza Alves</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA155</CODIGO>
+		<NOME>Ricardo Henrique Davis Leite</NOME>
+		<ABREVIATURA>Ricardo Henrique Davis Leite</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA156</CODIGO>
+		<NOME>Ricardo Nunes Cardoso</NOME>
+		<ABREVIATURA>Ricardo Nunes Cardoso</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA157</CODIGO>
+		<NOME>Roberto Carlos Andrade de Oliveira</NOME>
+		<ABREVIATURA>Roberto Carlos Andrade de Oliveira</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA160</CODIGO>
+		<NOME>Rodrigo Morais Chaves</NOME>
+		<ABREVIATURA>Rodrigo Morais Chaves</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA163</CODIGO>
+		<NOME>Rômulo Machado Garcia</NOME>
+		<ABREVIATURA>Rômulo Machado Garcia</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA165</CODIGO>
+		<NOME>Sibellius de Souza Bernardes</NOME>
+		<ABREVIATURA>Sibellius de Souza Bernardes</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA167</CODIGO>
+		<NOME>Suelen Aparecida Bonoto Alves</NOME>
+		<ABREVIATURA>Suelen Aparecida Bonoto Alves</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA169</CODIGO>
+		<NOME>Suelen Sales Page</NOME>
+		<ABREVIATURA>Suelen Sales Page</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA170</CODIGO>
+		<NOME>Taylor Fonseca de Paula</NOME>
+		<ABREVIATURA>Taylor Fonseca de Paula</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA171</CODIGO>
+		<NOME>Thais Silva de Paula</NOME>
+		<ABREVIATURA>Thais Silva de Paula</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA175</CODIGO>
+		<NOME>Thiago Gerheim de Andrade</NOME>
+		<ABREVIATURA>Thiago Gerheim de Andrade</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA176</CODIGO>
+		<NOME>Tiago Simões Bernardes</NOME>
+		<ABREVIATURA>Tiago Simões Bernardes</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA177</CODIGO>
+		<NOME>Victor Emanuel Pinto Guedes</NOME>
+		<ABREVIATURA>Victor Emanuel Pinto Guedes</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA179</CODIGO>
+		<NOME>Vinícius Rangel dos Santos</NOME>
+		<ABREVIATURA>Vinícius Rangel dos Santos</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>CA180</CODIGO>
+		<NOME>Wagner Fernando de Castro</NOME>
+		<ABREVIATURA>Wagner Fernando de Castro</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA182</CODIGO>
+		<NOME>Wallace Rosa Correa</NOME>
+		<ABREVIATURA>Wallace Rosa Correa</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA184</CODIGO>
+		<NOME>Welson Augusto Ribeiro</NOME>
+		<ABREVIATURA>Welson Augusto Ribeiro</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+	<REGISTRO>
+		<CODIGO>StA187</CODIGO>
+		<NOME>Wesley Pontes da Costa</NOME>
+		<ABREVIATURA>Wesley Pontes da Costa</ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<PREFJAN>2</PREFJAN>
+	</REGISTRO>
+</EXPORT_URANIA_INSERT>

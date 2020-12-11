@@ -1,0 +1,28 @@
+<EXPORT_URANIA_INSERT>
+// Edit this template and see what happens in the Preview.
+// - The text between {repeat} and {endrepeat} is repeated as many times as the number of rows.
+// - The text between {script} and {endscript} is executed as JavaScript.
+// - Use these variables: $header_1, $header_2, etc. and $column_1, $column_2, etc. and $index.
+// These comments are removed in the output.
+<PROFESSORES>
+	<REGISTRO>
+	{repeat}
+		<CODIGO></CODIGO>
+		<NOME>$column_2</NOME>
+		<TURNO>MTN</TURNO>
+		<ABREVIATURA></ABREVIATURA>
+		<TIPOPROF>G</TIPOPROF>
+		<DESLOC></DESLOC>
+		<TIPODESLOC>x</TIPODESLOC>
+		<PREFJAN>2</PREFJAN>
+		<SEG></SEG>
+		<TER></TER>
+		<QUA></QUA>
+		<QUI></QUI>
+		<SEX></SEX>
+		<SAB></SAB>
+
+		
+{endrepeat}
+	</REGISTRO>
+</EXPORT_URANIA_INSERT>
